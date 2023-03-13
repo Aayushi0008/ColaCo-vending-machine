@@ -1,0 +1,29 @@
+{
+  "Fizz": {
+    "name": "Fizz",
+    "price": 1,
+    "quantity": 100,
+    "description": "An effervescent fruity experience with hints of grape and coriander.",
+    "moneyCollected": 1
+  },
+  "Pop": {
+    "name": "Pop",
+    "quantity": 100,
+    "price": 1,
+    "description": "An explosion of flavor that will knock your socks off!"
+  },
+  "Cola": {
+    "name": "Cola",
+    "quantity": 200,
+    "price": 1,
+    "description": "A basic no nonsense cola that is the perfect pick me up for any occasion."
+  },
+  "MegaPop": {
+    "name": "MegaPop",
+    "displayName": "Mega Pop",
+    "quantity": 50,
+    "price": 1,
+    "description": "Not for the faint of heart. So flavorful and so invigorating, it should probably be illegal.",
+    "moneyCollected": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "user" : {
+       "role" : "admin",
+       "password" : "password1",
+       "profession" : "teacher",
+       "id": 1
+    }
+ }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vending Machine Web App</title>
+
+
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <style>
+
+        .col-sm-4 {
+            border: groove
+        }
+
+        #headerRow {
+            text-align: center
+        }
+
+        #money-input {
+            margin-left: 25%
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="itembox addition">
+            <div style="float: left">
+                <h1 style="margin-top: 10px; margin-bottom: -10px" id="headerRow">Vending Machine</h1>
+            </div>
+            <!-- This should have a role check and only admin should be able to see and use this! -->
+            <button type="button" style="float: right; margin: 15px 0 -10px;" class="btn btn-info" id="adminUpdate">Admin Update
+            </button>
+        </div>
+
+    </div>
+    <hr style="width: 101%">
+
+
+    <div class="row">
+        <div class="col-sm-8" id="vending-items">
+
+
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group">
+                <h2 style="text-align: center">Total $ In</h2>
+                <input type="text" class="form-control" id="money-input" style="margin-bottom: 5px; width:50%" readonly/>
+
+                <button type="button" class="btn btn-outline-dark" id="add-dollar-button" style="margin: 5px; width:45%">Add 1$</button>
+                <button type="button" class="btn btn-outline-dark" id="add-50c-button" style="margin: 5px;  width:45%">Add 50c</button>
+                <button type="button" class="btn btn-outline-dark" id="add-25c-button" style="margin: 5px;  width:45%">Add 25c</button>
+                <button type="button" class="btn btn-outline-dark" id="add-10c-button" style="margin: 5px;  width:45%">Add 10c</button>
+            </div>
+            <hr>
+
+            <div class="form-group">
+                <h2 style="text-align: center">Messages</h2>
+                <input type="text" class="form-control" id="vending-message" readonly/>
+                <div class="form-group">
+                    <p></p>
+
+                    <label class="col-sm-2 label-control">Item:</label>
+                    <input type="text" class="form-control" id="item-to-vend" readonly/>
+                    <p></p>
+
+                </div>
+                <div class="form-group" style="text-align: center ">
+                    <button type="button"
+                            class="btn btn-primary form-control col-sm-offset-1"
+                            id="purchase-button" style="width:45%" disabled>Make Purchase
+                    </button>
+                </div>
+            </div>
+            <hr>
+
+            <div class="form-group">
+                <h2 style="text-align:center" id="change-header">Change</h2>
+                <div class="form-group">
+                    <input type="text" class="form-control"
+                           id="change-input-box" style="width:100%" readonly/>
+                </div>
+                </p>
+                <div class="form-group" style="text-align: center ">
+                    <button type="button"
+                            class="btn btn-secondary col-sm-offset-4" style="width:45%" id="return-change" disabled>Return Change
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/jquery-ui/dist/jquery-ui.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendingmachine.js"></script>
+</body>
+
+</html>

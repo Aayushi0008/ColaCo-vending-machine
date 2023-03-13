@@ -1,0 +1,9 @@
+{
+    "Sprite": {
+      "name": "Sprite",
+      "price": 5,
+      "quantity": 150,
+      "description": "An effervescent fruity experience.",
+      "moneyCollected": 1
+    }
+  }

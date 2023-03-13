@@ -1,0 +1,15 @@
+{
+    "Fizz": {
+      "name": "Fizz",
+      "price": 2,
+      "quantity": 129,
+      "description": "An effervescent fruity experience with hints of grape and coriander.",
+      "moneyCollected": 1
+    },
+    "Pop": {
+      "name": "Pop",
+      "quantity": 100,
+      "price": 3,
+      "description": "An explosion of flavor that will knock your socks off!"
+    }
+  }
